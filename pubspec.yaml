@@ -1,6 +1,6 @@
 name: dna_rljson
 description: "DNA of all rljson repos: every topic layer in one dependency"
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/rljson/dna_rljson.git
 
 environment:

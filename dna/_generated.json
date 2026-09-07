@@ -58,14 +58,6 @@
       "hash": "0xbe88eb4256745ee1"
     },
     {
-      "name": "dna-vscode",
-      "package": "@ggdna/dna-vscode",
-      "ecosystem": "node",
-      "resolvedVersion": "0.1.0",
-      "via": null,
-      "hash": "0x388c565943d37cae"
-    },
-    {
       "name": "dna-clean-code",
       "package": "@ggdna/dna-clean-code",
       "ecosystem": "node",
@@ -74,20 +66,12 @@
       "hash": "0xacaa785dad36b047"
     },
     {
-      "name": "dna-scripts",
-      "package": "dna_scripts",
-      "ecosystem": "pub",
-      "resolvedVersion": "0.1.0",
-      "via": "dna-gg",
-      "hash": "0x9ee08ef13ab4c8d3"
-    },
-    {
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.1",
+      "resolvedVersion": "0.2.0",
       "via": null,
-      "hash": "0xb7b292a1a91dd05f"
+      "hash": "0x97c559b0151610d4"
     },
     {
       "name": "self",
@@ -153,10 +137,6 @@
       "hash": "0x9bbf942483fe0341"
     },
     {
-      "path": ".claude/skills/scripts/SKILL.md",
-      "hash": "0x8766164be45964d2"
-    },
-    {
       "path": ".claude/skills/test/SKILL.md",
       "hash": "0x60930f758b177f0c"
     },
@@ -169,20 +149,8 @@
       "hash": "0x1d68680e45f14a07"
     },
     {
-      "path": ".claude/skills/vscode/SKILL.md",
-      "hash": "0x65233948faf9c40a"
-    },
-    {
       "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xa61b5062f48e430c"
-    },
-    {
-      "path": ".vscode/extensions.json",
-      "hash": "0x42dbd078830bdf05"
-    },
-    {
-      "path": ".vscode/settings.json",
-      "hash": "0x2812c84f6c854cf8"
+      "hash": "0xf3320fb8f530a565"
     },
     {
       "path": "doc/guides/blog-guide.md",
@@ -289,10 +257,6 @@
       "hash": "0x0bbbe1c5cfdfeeb2"
     },
     {
-      "path": "doc/guides/scripts-guide.md",
-      "hash": "0xe3e5e5d32435a424"
-    },
-    {
       "path": "doc/guides/test-guide-dart.md",
       "hash": "0xc84f3034150cc8e0"
     },
@@ -307,10 +271,6 @@
     {
       "path": "doc/guides/translate-guide.md",
       "hash": "0x540e616f87964e9d"
-    },
-    {
-      "path": "doc/guides/vscode-guide.md",
-      "hash": "0xc6e47320f9c0ce52"
     },
     {
       "path": "doc/hello_world.md",
@@ -338,59 +298,15 @@
     },
     {
       "path": "scripts/delete-feature-branch.js",
-      "hash": "0x219ac0a3635ee644"
+      "hash": "0x0baefa6a16022682"
     },
     {
       "path": "scripts/functions/colors.js",
-      "hash": "0xdfd97f3804665811"
-    },
-    {
-      "path": "scripts/functions/current-branch.js",
-      "hash": "0xb9ebbadf45893278"
-    },
-    {
-      "path": "scripts/functions/directories.js",
-      "hash": "0x148d4ebb8aa75523"
-    },
-    {
-      "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
-    },
-    {
-      "path": "scripts/functions/get-version.js",
-      "hash": "0xfe46316558755cf2"
-    },
-    {
-      "path": "scripts/functions/is-clean-repo.js",
-      "hash": "0x8aa95ca51d9d6517"
-    },
-    {
-      "path": "scripts/functions/is-main-up-to-date.js",
-      "hash": "0xe1ab1826d0ddd039"
-    },
-    {
-      "path": "scripts/functions/pull-request-url.js",
-      "hash": "0x5398755a61a59928"
+      "hash": "0x71ce810fb1336067"
     },
     {
       "path": "scripts/functions/run-command.js",
-      "hash": "0x085b390fcb9256ab"
-    },
-    {
-      "path": "scripts/functions/sync-folders.js",
-      "hash": "0x4f83165fd92ec49d"
-    },
-    {
-      "path": "scripts/rename-class.js",
-      "hash": "0xa9daec4f3ea514b7"
-    },
-    {
-      "path": "scripts/setup-github-repo.js",
-      "hash": "0x5907588070a580ca"
-    },
-    {
-      "path": "scripts/wait-for-pr.js",
-      "hash": "0x1360c661984b78a8"
+      "hash": "0x1fe113fc2a4e8e34"
     }
   ]
 }

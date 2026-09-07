@@ -15,8 +15,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@ggdna/dna-gg':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.2.0
+        version: 0.2.0
       '@ggdna/dna-guides':
         specifier: ^0.1.0
         version: 0.1.0
@@ -50,8 +50,8 @@ packages:
     resolution: {integrity: sha512-XdXcQDehDdDnxTvgTsDwfj8cFYIer2EwPacB2paBr9po4tAznuoPza4nWztMgdgnsb69cyEN3ifEfWfG6KQg7w==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-gg@0.1.1':
-    resolution: {integrity: sha512-Yw4BUdfqtMh8eP45NRaQzvSF7N4SdDUCW7ovaXhM3PHYaDlg0KybSTqj85cIeSQkNaimknrZMMlFmOH4b/WJYQ==}
+  '@ggdna/dna-gg@0.2.0':
+    resolution: {integrity: sha512-HD8GhbEMARMXc5Ewnz6gVJmGqZd+RO7KQPTRYl6GH/0lj0ZfQOzmeSr3lbUiHB3EQGwJ9ApIFs7Igsb2R0VSYg==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-guides@0.1.0':
@@ -68,10 +68,6 @@ packages:
 
   '@ggdna/dna-readme@0.1.0':
     resolution: {integrity: sha512-jCLO6WBJdBFvAJrYTFMcGJOcXe2PVh8p40v9Hbx3TFGxoc+AoqG+/48HUlKOdeYejVt/oXBp9/V/NwfdtBJZ7w==}
-    engines: {node: '>=22'}
-
-  '@ggdna/dna-scripts@0.1.0':
-    resolution: {integrity: sha512-wDrYb0klJkOnoB9x4X5NTQ6C6pkxa4sjBmiDJPGXiivL1SkkNVCFW6vYsShaeXNG6e9nMDKfuAkCh702XRMDhw==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-translate@0.1.0':
@@ -95,11 +91,10 @@ snapshots:
 
   '@ggdna/dna-clean-code@0.1.0': {}
 
-  '@ggdna/dna-gg@0.1.1':
+  '@ggdna/dna-gg@0.2.0':
     dependencies:
       '@ggdna/dna-index': 0.1.0
       '@ggdna/dna-install': 0.1.0
-      '@ggdna/dna-scripts': 0.1.0
 
   '@ggdna/dna-guides@0.1.0': {}
 
@@ -108,8 +103,6 @@ snapshots:
   '@ggdna/dna-install@0.1.0': {}
 
   '@ggdna/dna-readme@0.1.0': {}
-
-  '@ggdna/dna-scripts@0.1.0': {}
 
   '@ggdna/dna-translate@0.1.0': {}
 

@@ -32,9 +32,6 @@ importers:
       '@ggdna/dna-translate':
         specifier: ^0.1.0
         version: 0.1.0
-      '@ggdna/dna-vscode':
-        specifier: ^0.1.0
-        version: 0.1.0
     devDependencies:
       '@types/node':
         specifier: ^26.2.0
@@ -81,10 +78,6 @@ packages:
     resolution: {integrity: sha512-d1tuX4pVroYvd1ZLzjjMxxesQygPuNEpknET9UpFEv7qQvRiLlVenJ36JzrqQD/M752TDf2VEuEdPZLa9Gv6mw==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-vscode@0.1.0':
-    resolution: {integrity: sha512-AJUepqecIAQnJrKsLLPYueDnTxZu1SdgMqbzL+MX5CrcpjCfl7rxfzvblczI0KA7xeMLe9CUMvmAASNOz+q72w==}
-    engines: {node: '>=22'}
-
   '@types/node@26.2.0':
     resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
 
@@ -119,8 +112,6 @@ snapshots:
   '@ggdna/dna-scripts@0.1.0': {}
 
   '@ggdna/dna-translate@0.1.0': {}
-
-  '@ggdna/dna-vscode@0.1.0': {}
 
   '@types/node@26.2.0':
     dependencies:

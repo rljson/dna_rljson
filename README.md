@@ -13,20 +13,30 @@ instead of overwriting silently.
 
 ## Layers
 
-| Layer | What it brings |
-| --- | --- |
-| [dna_readme](https://github.com/ggdna/dna_readme) | README structure and templates |
-| [dna_guides](https://github.com/ggdna/dna_guides) | developer and AI guides |
-| [dna_translate](https://github.com/ggdna/dna_translate) | multi-language docs, de and en in sync |
-| [dna_index](https://github.com/ggdna/dna_index) | index and navigation files |
-| [dna_blog](https://github.com/ggdna/dna_blog) | blog format, templates, layout |
-| [dna_install](https://github.com/ggdna/dna_install) | install guides: editor, node, Azure, tooling |
-| [dna_vscode](https://github.com/ggdna/dna_vscode) | shared editor settings and extensions |
+| Layer                                                     | What it brings                                                 |
+| --------------------------------------------------------- | -------------------------------------------------------------- |
+| [dna_readme](https://github.com/ggdna/dna_readme)         | README structure and templates                                 |
+| [dna_guides](https://github.com/ggdna/dna_guides)         | developer and AI guides                                        |
+| [dna_translate](https://github.com/ggdna/dna_translate)   | multi-language docs, de and en in sync                         |
+| [dna_index](https://github.com/ggdna/dna_index)           | index and navigation files                                     |
+| [dna_blog](https://github.com/ggdna/dna_blog)             | blog format, templates, layout                                 |
+| [dna_install](https://github.com/ggdna/dna_install)       | install guides: editor, node, Azure, tooling                   |
 | [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, incl. the TypeScript specifics |
-| [dna_gg](https://github.com/ggdna/dna_gg) | the gg workflow, and the scripts it calls |
+| [dna_gg](https://github.com/ggdna/dna_gg)                 | the gg workflow: ticket, commit, push, publish                 |
 
 This layer carries no files of its own — it exists to compose the ones
 above. Everything an rljson repo sees comes from them.
+
+## Layers left out on purpose
+
+- [dna_vscode](https://github.com/ggdna/dna_vscode) — the rljson repos
+  carry their own `.vscode` settings, with the ESLint and Dart
+  configuration their developers work with every day. Taking the layer
+  would replace that, and change how people work, for no gain.
+- [dna_scripts](https://github.com/ggdna/dna_scripts) — the repos keep
+  their own workflow scripts. `dna_gg` no longer pulls this layer in; the
+  only script that comes along is `delete-feature-branch.js`, the one
+  `dna_gg` calls itself from `/cleanup`.
 
 ## Variables
 

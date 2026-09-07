@@ -14,7 +14,6 @@ dependencies:
   dna_install: ^0.1.0
   dna_readme: ^0.1.0
   dna_translate: ^0.1.0
-  dna_vscode: ^0.1.0
   dna_gg: ^0.1.1
 
 dev_dependencies:

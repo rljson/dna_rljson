@@ -109,10 +109,18 @@ packages:
     dependency: "direct main"
     description:
       name: dna_gg
-      sha256: "701f0c49cfaf7044148e031fcb03efa37b00d4f7c310d61c9cff10bf520ba98b"
+      sha256: "84daf1149628acc6b627bfa6ac0884b5d90b86ad611cf0a0a4d4e703443a51c6"
       url: "https://pub.dev"
     source: hosted
-    version: "0.2.0"
+    version: "0.7.1"
+  dna_github:
+    dependency: transitive
+    description:
+      name: dna_github
+      sha256: a5bf4bde3d1b859f172e550bee1f3b2530700fccfd846bcc45552385e4609ec6
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.3"
   dna_guides:
     dependency: "direct main"
     description:

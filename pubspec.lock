@@ -153,6 +153,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.1.2"
+  dna_vscode:
+    dependency: "direct dev"
+    description:
+      name: dna_vscode
+      sha256: a6a1beeba1490bcb666ed98c6a7a5cbd5295fa949e09331b400777655ee0d4f7
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.4"
   file:
     dependency: transitive
     description:

@@ -1,7 +1,7 @@
 {
   // This package is a DNA layer: dna/ is hand-authored source and is the
   // last layer of its own instantiation.
-  "version": 1,
+  "version": 2,
 
   // The rljson umbrella: it pulls in the topic layers, so adding this one
   // layer gives a repo the whole set. Parents first, this layer wins.
@@ -22,5 +22,16 @@
     "dna_install",
     "dna_clean_code",
     "dna_gg"
-  ]
+  ],
+
+  // The rljson values of these variables live in dna/_vars.json. false
+  // lifts the duty the parent layers put on every project to set them
+  // again in its own dna/_vars.json.
+  "mustOverride": {
+    "dnaCopyrightHolder": false,
+    "dnaCompany": false,
+    "dnaGitOrg": false,
+    "dnaGitOrgUrl": false,
+    "dnaJiraPrefix": false
+  }
 }

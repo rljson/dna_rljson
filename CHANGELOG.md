@@ -1,5 +1,23 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Lift the `mustOverride` duty for `dnaCopyrightHolder`, `dnaCompany`,
+  `dnaGitOrg`, `dnaGitOrgUrl` and `dnaJiraPrefix`: a repo takes the rljson
+  values from this layer instead of repeating them in its own
+  `dna/_vars.json` (format version 2)
+- Ship `scripts/functions/colors.js` and `run-command.js`, which the repos'
+  own scripts import and the upgraded layers no longer place
+
+## 0.3.0 - 2026-10-29
+
+### Changed
+
+- Move to dna-gg 1.x: the `/gg-*` skills, the development guide, the hooks
+- Publish to npm only (`publish_to: none`)
+
 ## 0.2.0 - 2026-09-07
 
 ## 0.1.1 - 2026-08-20

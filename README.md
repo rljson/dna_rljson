@@ -24,8 +24,9 @@ instead of overwriting silently.
 | [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, incl. the TypeScript specifics |
 | [dna_gg](https://github.com/ggdna/dna_gg)                 | the gg workflow: ticket, commit, push, publish                 |
 
-This layer carries no files of its own — it exists to compose the ones
-above. Everything an rljson repo sees comes from them.
+On top of them this layer adds one file of its own: `dna/CLAUDE.md`, the
+rljson additions to the gg workflow, imported into every repo's `CLAUDE.md`
+after gg's development guide.
 
 ## Layers left out on purpose
 
@@ -42,6 +43,10 @@ above. Everything an rljson repo sees comes from them.
 
 - `dnaCopyrightHolder` — the name in the license header of every file,
   set to `rljson` here
+- `dnaCompany`, `dnaGitOrg` — `rljson`; `dnaGitOrgUrl` —
+  `https://github.com/rljson`
+- `dnaJiraPrefix` — `ONE`, the prefix of the example ticket ids in the gg
+  skills
 
   Substitution is case-adaptive: a `dnaCopyrightHolder` reference renders
   the value in camelCase, so the header reads `Copyright (c) rljson`. To
@@ -52,10 +57,13 @@ above. Everything an rljson repo sees comes from them.
 Declare it as a dev-dependency and initialize once:
 
 ```bash
-pnpm add -D @rljson/dna-rljson   # TypeScript projects
-dart pub add dev:dna_rljson      # Dart projects
+pnpm add -D @rljson/dna-rljson
 gg dna init
 ```
+
+The layer is published to npm only. Its `pubspec.yaml` exists for the
+engine's own test (`dart test`); `publish_to: none` keeps it off pub.dev,
+where 0.2.0 is the last version.
 
 The placed test instantiates and verifies the DNA on every test run.
 

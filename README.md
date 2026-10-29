@@ -24,13 +24,9 @@ instead of overwriting silently.
 | [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, incl. the TypeScript specifics |
 | [dna_gg](https://github.com/ggdna/dna_gg)                 | the gg workflow: ticket, commit, push, publish                 |
 
-On top of them this layer adds two things of its own:
-
-- `dna/CLAUDE.md` — the rljson additions to the gg workflow, imported into
-  every repo's `CLAUDE.md` after gg's development guide
-- `dna/dot-claude/skills/gg-publish` — replaces gg's `/gg-publish`: in the
-  rljson repos Claude runs `gg do publish` itself once the user says
-  "publish", instead of handing it over
+On top of them this layer adds one file of its own: `dna/CLAUDE.md`, the
+rljson additions to the gg workflow, imported into every repo's `CLAUDE.md`
+after gg's development guide.
 
 ## Layers left out on purpose
 

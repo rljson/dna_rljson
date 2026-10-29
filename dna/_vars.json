@@ -1,3 +1,7 @@
 {
-  "dnaCopyrightHolder": "rljson"
+  "dnaCopyrightHolder": "rljson",
+  "dnaCompany": "rljson",
+  "dnaGitOrg": "rljson",
+  "dnaGitOrgUrl": "https://github.com/rljson",
+  "dnaJiraPrefix": "ONE"
 }

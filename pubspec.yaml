@@ -21,4 +21,4 @@ dependencies:
 dev_dependencies:
   helix: ^1.14.0
   lints: ^6.1.0
-  test: ^1.32.0
+  test: ^1.33.0

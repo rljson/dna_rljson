@@ -4,6 +4,16 @@
 
 ### Changed
 
+- Ship the rljson guide (`doc/guides/rljson-guide.md`) and the rljson
+  review guide (`doc/guides/for-ai/rljson-review-guide.md`): the rules every
+  rljson repo shares, which each repo's `CLAUDE.md` used to repeat
+- The layer's `CLAUDE.md` imports the rljson guide and points reviews at the
+  review guide
+
+## 0.3.1 - 2026-10-30
+
+### Changed
+
 - Lift the `mustOverride` duty for `dnaCopyrightHolder`, `dnaCompany`,
   `dnaGitOrg`, `dnaGitOrgUrl` and `dnaJiraPrefix`: a repo takes the rljson
   values from this layer instead of repeating them in its own

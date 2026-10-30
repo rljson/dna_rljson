@@ -1,6 +1,6 @@
 {
   "name": "@rljson/dna-rljson",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "DNA of all rljson repos: every topic layer in one dependency",
   "keywords": [
     "dna",

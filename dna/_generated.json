@@ -77,9 +77,9 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "1.1.0",
+      "resolvedVersion": "1.1.1",
       "via": null,
-      "hash": "0x8654064a14538e39"
+      "hash": "0xa4329d4ad27ccd8a"
     },
     {
       "name": "self",
@@ -87,7 +87,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x514eddc238dc7299"
+      "hash": "0x94c54eec1de4e552"
     }
   ],
   "claude": {
@@ -143,7 +143,7 @@
     },
     {
       "path": ".claude/skills/gg-review/SKILL.md",
-      "hash": "0x9f7bbbe511238684"
+      "hash": "0x8583deb0630bba47"
     },
     {
       "path": ".claude/skills/gg-ticket/SKILL.md",
@@ -336,6 +336,14 @@
     {
       "path": "scripts/check-readme.js",
       "hash": "0x50c75c1e8494824e"
+    },
+    {
+      "path": "scripts/functions/colors.js",
+      "hash": "0x71ce810fb1336067"
+    },
+    {
+      "path": "scripts/functions/run-command.js",
+      "hash": "0x1fe113fc2a4e8e34"
     },
     {
       "path": "scripts/setup-github-repo.js",

@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_rljson` package.
-const String dnaRljsonVersion = '0.3.0';
+const String dnaRljsonVersion = '0.3.1';

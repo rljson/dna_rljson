@@ -15,7 +15,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.4.1",
       "via": null,
-      "hash": "0x3fa94fd2d9b184c9"
+      "hash": "0xfb507a8f6df4e668"
     },
     {
       "name": "dna-guides",
@@ -31,7 +31,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.5.1",
       "via": null,
-      "hash": "0x18124d421abec3df"
+      "hash": "0x5f5ce89a81e1d577"
     },
     {
       "name": "dna-index",
@@ -79,7 +79,7 @@
       "ecosystem": "node",
       "resolvedVersion": "1.9.2",
       "via": null,
-      "hash": "0xae61f4cdf52c3c46"
+      "hash": "0x69460d3415cdf522"
     },
     {
       "name": "self",
@@ -322,7 +322,7 @@
     },
     {
       "path": "doc/de/guides/translate-guide.md",
-      "hash": "0xb1c0da96a288e759"
+      "hash": "0x9d19b30997fd009f"
     },
     {
       "path": "doc/de/templates/blog-template.md",
@@ -470,7 +470,7 @@
     },
     {
       "path": "doc/en/guides/translate-guide.md",
-      "hash": "0x2217c18f09a0a54e"
+      "hash": "0x5a0238f037005b71"
     },
     {
       "path": "doc/en/templates/blog-template.md",
@@ -546,7 +546,7 @@
     },
     {
       "path": "doc/fa/guides/install-guide.md",
-      "hash": "0x85bb0625c2aa537d"
+      "hash": "0xcf03081c737e25ff"
     },
     {
       "path": "doc/fa/guides/install-guide/install-azure-cli-guide.md",
@@ -622,7 +622,7 @@
     },
     {
       "path": "doc/fa/guides/translate-guide.md",
-      "hash": "0xe3cd4e732b20e2fe"
+      "hash": "0x65c53532620ea885"
     },
     {
       "path": "doc/fa/templates/blog-template.md",
@@ -638,7 +638,7 @@
     },
     {
       "path": "scripts/check-readme.js",
-      "hash": "0xf56a828e6ca0efe9"
+      "hash": "0x9ff53ff6051e99a4"
     },
     {
       "path": "scripts/functions/colors.js",

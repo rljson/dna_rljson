@@ -1,6 +1,6 @@
 name: dna_rljson
 description: "DNA of all rljson repos: every topic layer in one dependency"
-version: 0.3.3
+version: 0.4.0
 repository: https://github.com/rljson/dna_rljson.git
 # Published to npm only (@rljson/dna-rljson): every consumer is a TypeScript repo.
 publish_to: none
@@ -9,14 +9,14 @@ environment:
   sdk: ">=3.13.0 <4.0.0"
 
 dependencies:
-  dna_blog: ^0.3.0
-  dna_clean_code: ^0.3.0
-  dna_guides: ^0.2.0
-  dna_index: ^0.2.0
-  dna_install: ^0.2.0
-  dna_readme: ^0.3.1
-  dna_translate: ^0.3.0
-  dna_gg: ^1.1.1
+  dna_blog: ^0.6.0
+  dna_clean_code: ^0.6.0
+  dna_guides: ^0.4.0
+  dna_index: ^0.4.0
+  dna_install: ^0.5.0
+  dna_readme: ^0.5.0
+  dna_translate: ^0.6.0
+  dna_gg: ^2.0.0
 
 dev_dependencies:
   helix: ^1.18.0

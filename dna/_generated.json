@@ -63,7 +63,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.5.1",
       "via": null,
-      "hash": "0xeac48c10ffc91f19"
+      "hash": "0x4b0a9c8a68fd4549"
     },
     {
       "name": "dna-github",
@@ -87,7 +87,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xf8107f47a60858ec"
+      "hash": "0xd20b601f719ceb06"
     }
   ],
   "claude": {
@@ -198,11 +198,11 @@
     },
     {
       "path": "doc/de/guides/code-guide-dart.md",
-      "hash": "0xe5660a59fd14de2e"
+      "hash": "0xa60f42836d8641ac"
     },
     {
       "path": "doc/de/guides/code-guide-typescript.md",
-      "hash": "0xbc5303f557aee275"
+      "hash": "0x1cf7f1ea723626df"
     },
     {
       "path": "doc/de/guides/code-guide.md",
@@ -238,7 +238,7 @@
     },
     {
       "path": "doc/de/guides/for-ai/rljson-review-guide.md",
-      "hash": "0x5d5e038a73a1f5b3"
+      "hash": "0xa98a7a36c11be9b5"
     },
     {
       "path": "doc/de/guides/index-guide.md",
@@ -498,11 +498,11 @@
     },
     {
       "path": "doc/fa/guides/code-guide-dart.md",
-      "hash": "0x7d6620d5cb36313f"
+      "hash": "0x0bd3402a640a72f8"
     },
     {
       "path": "doc/fa/guides/code-guide-typescript.md",
-      "hash": "0xabeeabe52c5f015a"
+      "hash": "0x7da3a2aa8580f087"
     },
     {
       "path": "doc/fa/guides/code-guide.md",
@@ -538,7 +538,7 @@
     },
     {
       "path": "doc/fa/guides/for-ai/rljson-review-guide.md",
-      "hash": "0x13d5e63af1b7c60d"
+      "hash": "0x4d7eaf9af5c49033"
     },
     {
       "path": "doc/fa/guides/index-guide.md",

@@ -46,7 +46,7 @@ gemergt.
 ## @clean Aus einem sauberen Zustand bauen <a id="build-from-a-clean-state"></a>
 
 - Ein gewöhnlicher Branch: `rm -rf node_modules && pnpm install --frozen-lockfile
-  && pnpm run build` in einem frischen Klon.
+&& pnpm run build` in einem frischen Klon.
 - Ein gg-Ticket: im Ticket, nach `gg do import ticket` und `gg do localize` —
   seine Branches verlinken einander und lassen sich nicht einzeln installieren.
 - `git status --short` bleibt danach leer.

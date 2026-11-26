@@ -45,7 +45,7 @@ found in the LICENSE file in the root of this package.
 ## @clean از یک وضعیت تمیز بیلد کنید <a id="build-from-a-clean-state"></a>
 
 - یک شاخهٔ معمولی: `rm -rf node_modules && pnpm install --frozen-lockfile
-  && pnpm run build` در یک کلون تازه.
+&& pnpm run build` در یک کلون تازه.
 - یک تیکت gg: در تیکت، پس از `gg do import ticket` و `gg do localize` —
   شاخه‌های آن به یکدیگر لینک می‌شوند و به‌تنهایی نصب نمی‌شوند.
 - `git status --short` پس از آن خالی می‌ماند.

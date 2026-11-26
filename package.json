@@ -39,13 +39,13 @@
     "prettier": "^3.9.10"
   },
   "dependencies": {
-    "@ggdna/dna-blog": "^0.3.0",
-    "@ggdna/dna-clean-code": "^0.3.0",
-    "@ggdna/dna-gg": "^1.1.1",
-    "@ggdna/dna-guides": "^0.2.0",
-    "@ggdna/dna-index": "^0.2.0",
-    "@ggdna/dna-install": "^0.2.0",
-    "@ggdna/dna-readme": "^0.3.1",
-    "@ggdna/dna-translate": "^0.3.0"
+    "@ggdna/dna-blog": "^0.6.0",
+    "@ggdna/dna-clean-code": "^0.6.0",
+    "@ggdna/dna-gg": "^2.0.0",
+    "@ggdna/dna-guides": "^0.4.0",
+    "@ggdna/dna-index": "^0.4.0",
+    "@ggdna/dna-install": "^0.5.0",
+    "@ggdna/dna-readme": "^0.5.0",
+    "@ggdna/dna-translate": "^0.6.0"
   }
 }

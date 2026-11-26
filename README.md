@@ -17,7 +17,7 @@ instead of overwriting silently.
 | --------------------------------------------------------- | -------------------------------------------------------------- |
 | [dna_readme](https://github.com/ggdna/dna_readme)         | README structure and templates                                 |
 | [dna_guides](https://github.com/ggdna/dna_guides)         | developer and AI guides                                        |
-| [dna_translate](https://github.com/ggdna/dna_translate)   | multi-language docs, de and en in sync                         |
+| [dna_translate](https://github.com/ggdna/dna_translate)   | docs in every language of `dnaLanguages`                       |
 | [dna_index](https://github.com/ggdna/dna_index)           | index and navigation files                                     |
 | [dna_blog](https://github.com/ggdna/dna_blog)             | blog format, templates, layout                                 |
 | [dna_install](https://github.com/ggdna/dna_install)       | install guides: editor, node, Azure, tooling                   |

@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 The rules every rljson repo shares. Read the code, test and develop guides
 first; this adds what is particular to the rljson family.
 
-## Change a package where it belongs
+## @package Change a package where it belongs
 
 - Change an `@rljson/*` package in its own repo: tested and covered there,
   released, then used. In a gg ticket, add that repo to the ticket.
@@ -20,7 +20,7 @@ first; this adds what is particular to the rljson family.
   `@rljson/mongo-agent` once forked silently for weeks.
 - An app-side workaround for a package defect is wrong even when it works.
 
-## Pin the rljson packages exactly
+## @pin Pin the rljson packages exactly
 
 - Every `@rljson/*` dependency names one exact version (`"0.0.86"`); gg's
   release writes the new ones in.
@@ -34,7 +34,7 @@ first; this adds what is particular to the rljson family.
 - After changing a specifier, run `pnpm install --no-frozen-lockfile`;
   `--force` keeps the old version installed.
 
-## Keep coverage at 100 percent
+## @coverage Keep coverage at 100 percent
 
 - Statements, branches, functions and lines on every touched file; `pnpm test`
   fails below.
@@ -48,14 +48,14 @@ first; this adds what is particular to the rljson family.
 - Run a figure just short of 100 percent again before reporting it:
   timer-driven tests cover by luck.
 
-## Prove a failure is old without stashing
+## @old-failures Prove a failure is old without stashing
 
 - A failure in a file the ticket did not touch does not block. Prove it on a
   clean `main` (a second clone or `git worktree add`), never with `git stash`:
   a blind `stash pop` has destroyed parked work.
 - Name it in the commit message. Never add a new one.
 
-## Document in the same ticket
+## @docs Document in the same ticket
 
 - `README.public.md`, `README.architecture.md` and `CLAUDE.md` follow every API
   or behaviour change in the same ticket; the change is not done before.
@@ -64,13 +64,13 @@ first; this adds what is particular to the rljson family.
   and gg's release does not rename the section in a TypeScript repo: give it
   the released version in the next ticket.
 
-## Leave these alone
+## @avoid Leave these alone
 
 - Never change the `scripts` section of `package.json` without the owner's
   permission.
 - ESM only (`"type": "module"`), a license header in every source file.
 
-## Release only through gg
+## @release Release only through gg
 
 - The owner runs `gg do publish`: it merges, publishes and tags in dependency
   order. Never write versions or tags by hand.
@@ -80,7 +80,7 @@ first; this adds what is particular to the rljson family.
 - Watch `main`'s `Build and Test` after every release: pull requests run only
   the quick check.
 
-## Commands
+## @commands Commands
 
 - `pnpm test` — lint, tests and coverage
 - `pnpm run build` — the full build

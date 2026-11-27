@@ -6,7 +6,7 @@ repository: https://github.com/rljson/dna_rljson.git
 publish_to: none
 
 environment:
-  sdk: ">=3.13.0 <4.0.0"
+  sdk: ">=3.14.0 <4.0.0"
 
 dependencies:
   dna_blog: ^0.6.0
